@@ -1,0 +1,766 @@
+body{
+    margin: auto;
+    width: 100%;
+    background-image: url("bodyWallpaper1.png");
+    background-repeat: initial;
+}
+/*menu*/
+.firstSection{
+    box-sizing: border-box;
+    height: 137px;
+    width: 100%;
+    margin: 25px 0 5px 0;
+    /*margin: auto;*/
+    background-color: #9f8c7c;
+    border-top: 2px solid #624935;
+    border-bottom: 2px solid #624935;
+;
+}
+.navigation{
+    margin: -30px 150px 0 70px;
+}
+.navigation ul{
+    position: absolute;
+}
+.navigation ul li{
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    position: relative;
+}
+
+
+.navigation ul #personalBlog{
+    width: 380px;
+    line-height: 100px;
+    vertical-align: center;
+    margin: 0 200px 0 200px;
+}
+.navigation ul #personalBlog #personalBlogDiv h1{
+    font-size: 28px;
+}
+.navigation ul .firstTwoItems, .navigation ul .lastTwoItems{
+    width: 110px;
+    line-height: 100px;
+    vertical-align: center;
+    font-size: 18px;
+}
+.navigation ul li a{
+    display: block;
+    padding: 3px;
+    width: 180px;
+    font-weight: bold;
+    background-image: url("cloudItems2.png");
+    background-repeat: no-repeat;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.navigation ul li #personalBlogDiv{
+    display: inline-block;
+    vertical-align: center;
+    text-align: center;
+    padding: 3px;
+    width: 285px;
+    background-image: url("cloudHeading3.png");
+    background-repeat: no-repeat;
+}
+
+
+
+
+/*homeFirstPageCSS*/
+
+
+.mainSection .mainDiv{
+    box-sizing: content-box;
+    margin: auto;
+    width: 779px;
+    height: 586px;
+    border-left: 120px solid #eb7066;
+    border-right: 120px solid #f2a082;
+    background-image: url("mainBackground6.png");
+    background-repeat: repeat-y;
+}
+.mainSection .mainDiv .thisIsMe{
+    display: inline-block;
+    width: 520px;
+    height: 520px;
+    background-image: url("frame2.jpg");
+    margin-top: 33px;
+    float: left;
+}
+.mainSection .mainDiv .thisIsMe span:first-child{
+    display: inline-block;
+    float: left;
+    width: 200px;
+    margin: 33px 0 0 18px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.mainSection .mainDiv .thisIsMe img {
+    float: right;
+    margin: 60px 114px 0 0;
+    border: 2px solid black;
+}
+
+.mainSection .mainDiv .thisIsMe span:last-child{
+    display: inline-block;
+    float: right;
+    width: 200px;
+    margin: 82px 20px 0 50px;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.mainSection .mainDiv .faveQuote{
+    display: inline-block;
+    float: right;
+    width: 256px;
+    height: 185px;
+    color: darkred;
+    background-image: url("quote3.png");
+    margin: 40px 0 0 3px;
+}
+.mainSection .mainDiv .faveQuote div{
+    width: 280px;
+    margin: 45px 0 0 25px;
+    display: inline-block;
+    text-align: start;
+}
+.mainSection .mainDiv .faveQuote div:last-child{
+    display: inline-block;
+    text-align: end;
+    width: 280px;
+    margin: 0 0 0 -40px;
+
+}
+.mainSection .mainDiv .interestsHome{
+    background-image: url("noteForThridSectionRemovedBg.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 240px;
+    height: 253px;
+    float: right;
+    margin: 20px 0 0 5px;
+}
+.mainSection .mainDiv .interestsHome div{
+    width: 240px;
+    height: 253px;
+    text-align: center;
+    margin-top: 50px;
+    color: #6b280f;
+    font-size: 18px;
+
+}
+
+
+/*aboutMeCSS*/
+
+
+.mainSectionAboutMe .mainDivAboutMe{
+    box-sizing: content-box;
+    background-image: url("mainBackground4.png");
+    background-repeat: repeat-y;
+    width: 779px;
+    height: 1100px;
+    margin: auto;
+    border-left: 120px solid #e9cca2;
+    border-right: 120px solid #d5ad7b;
+    padding-top: 50px;
+}
+
+.mainSectionAboutMe .mainDivAboutMe .bio{
+    background-image: url("card.jpg");
+    width: 695px;
+    height: 391px;
+    margin: 20px 10px 60px 40px;
+}
+.mainSectionAboutMe .mainDivAboutMe .bio h3{
+    display: inline-block;
+    margin-top: 70px;
+    margin-left: 80px;
+}
+.mainSectionAboutMe .mainDivAboutMe .bio p{
+    margin: -10px 0 0 80px;
+}
+.mainSectionAboutMe .mainDivAboutMe .moreInfo{
+    width: 710px;
+    height: 599px;
+    background-image: url("frameForAboutMe.png");
+    background-repeat: no-repeat;
+    border: 2px solid saddlebrown;
+    margin: auto;
+    text-align: center;
+    /*padding-top: 50px;*/
+}
+.mainSectionAboutMe .mainDivAboutMe .moreInfo span{
+    display: inline-block;
+    font-size: 22px;
+    line-height: 280px;
+    vertical-align: center;
+    width: 710px;
+    margin-left: -60px;
+    font-weight: bold;
+    color: #795e41;
+    /*margin: 20px 0 0 50px;*/
+}
+
+.mainSectionAboutMe .mainDivAboutMe .moreInfo .hobbiesAboutMe{
+    display: inline-block;
+    float: left;
+    width: 165px;
+    line-height: 220px;
+    margin: 38px 0 0 110px;
+    font-size: 26px;
+
+}
+.mainSectionAboutMe .mainDivAboutMe .moreInfo a{
+    text-decoration: none;
+    color: #795e41;
+}
+.mainSectionAboutMe .mainDivAboutMe .moreInfo .interestsAboutMe, .favouritesAboutMe{
+    display: inline-block;
+    float: right;
+    width: 266px;
+    height: 122px;
+    line-height: 122px;
+    font-size: 26px;
+    margin: -14px 80px 44px 0;
+}
+
+/*contactCSS*/
+
+.mainSectionContact .mainDivContact {
+    background-image: url("botanica5.png");
+    background-repeat: no-repeat;
+    width: 1400px;
+    height: 878px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+
+.mainSectionContact .mainDivContact > div{
+    width: 800px;
+    height: 600px;
+
+
+}
+.mainDivContact div > div{
+    font-size: 22px;
+    text-align: center;
+    margin: 290px 0 0 380px;
+    width: 600px;
+    height: 210px;
+    padding-top: 20px;
+
+    color: #6b280f;
+}
+.mainDivContact div a{
+    text-decoration: none;
+    color: #af664b;
+}
+
+
+/*favouritesCSS*/
+.mainSectionFavourites .mainDivFavourites{
+    box-sizing: content-box;
+    background-image: url("mainBackground4.png");
+    background-repeat: repeat-y;
+    width: 779px;
+    height: 1400px;
+    margin: auto;
+    border-left: 120px solid #e9cca2;
+    border-right: 120px solid #d5ad7b;
+    padding-top: 50px;
+}
+
+.mainDivFavourites .movies{
+    background-image: url("something2Resized.jpg");
+    width: 455px;
+    height: 600px;
+    box-sizing: border-box;
+    padding: 20px 30px;
+    color: #033812;
+    font-size: 19px;
+    font-weight: bold;
+    border: 2px solid #9e8b7c;
+    text-align: justify;
+    display: inline-block;
+    float: left;
+}
+.mainDivFavourites .movies div{
+    margin-top: 32px;
+}
+
+.mainDivFavourites .fact {
+    background-image: url("leavesResized.png");
+    width: 218px;
+    height: 380px;
+    display: inline-block;
+    float: right;
+    text-align: right;
+    margin-right: 100px;
+}
+.mainDivFavourites .fact div{
+    width: 160px;
+    margin: 110px 0 0 110px;
+    border-right: 2px solid #566a53;
+    padding-right: 5px;
+    font-size: 16px;
+}
+
+
+.mainDivFavourites .tvShows{
+    background-image: url("paperResized.png");
+    width: 318px;
+    height: 483px;
+    float: right;
+    display: inline-block;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 4px;
+    margin-top: 30px;
+    border: 1px solid saddlebrown;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.mainDivFavourites .tvShows div a{
+    text-decoration: none;
+    color: #af4d40;
+}
+
+.mainDivFavourites .RickAndBoJack{
+    display: inline-block;
+    float: left;
+    width: 400px;
+    height: 353px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-bottom: 1px solid #565252;
+}
+
+.mainDivFavourites .books{
+    float: left;
+    width: 626px;
+    height: 352px;
+    text-align: center;
+    background-image: url("frame5.jpg");
+    padding: 10px;
+    border: 1px solid sandybrown;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.mainDivFavourites .books div{
+    width: 400px;
+    margin: 55px 0 0 100px;
+    font-size: 17px;
+    color: #691f17;
+}
+
+
+/*hobbiesCSS*/
+
+.mainSectionHobbies .mainDivHobbies{
+    box-sizing: content-box;
+    background-image: url("mainBackground4.png");
+    background-repeat: repeat-y;
+    width: 779px;
+    height: 2200px;
+    margin: auto;
+    border-left: 120px solid #e9cca2;
+    border-right: 120px solid #d5ad7b;
+    padding-top: 50px;
+
+}
+
+.mainDivHobbies .writing{
+    margin-top: 40px;
+}
+
+.mainDivHobbies .writing #myBook{
+    background-image: url("paperForBookResized.jpg");
+    background-repeat: no-repeat;
+    box-sizing: content-box;
+    display: inline-block;
+    width: 400px;
+    height: 518px;
+    float: right;
+    padding: 15px;
+    text-align: justify;
+    margin-top: -16px;
+}
+.mainDivHobbies .writing #myBook div{
+    margin: 70px 0 0 30px;
+    width: 300px;
+    color: #4d1d0a;
+    font-size: 17px;
+}
+.mainDivHobbies .writing #myBook div a{
+    text-decoration: none;
+    color: #e06536;
+
+}
+
+.mainDivHobbies .writing #myBookCover{
+    float: left;
+    display: inline-block;
+    width: 300px;
+    text-align: right;
+}
+.mainDivHobbies .writing #myBookCover img{
+    border: 5px solid white;
+    border-radius: 5px;
+}
+.mainDivHobbies .writing  #myDrama{
+    clear: both;
+    background-image: url("paper7.png");
+    background-repeat: no-repeat;
+    width: 730px;
+    height: 600px;
+    margin: auto;
+    padding-top: 100px;
+    box-sizing: content-box;
+}
+.mainDivHobbies .writing #myDrama div{
+    width: 500px;
+    text-align: justify;
+    font-size: 17px;
+    margin: auto;
+}
+.mainDivHobbies .writing #myDramaCitation{
+    float: right;
+    background-image: url("paper8.png");
+    background-repeat: no-repeat;
+    width: 430px;
+    height: 550px;
+    margin-top: -100px;
+    box-sizing: content-box;
+    padding-top: 100px;
+    margin-bottom: -60px;
+
+}
+
+.mainDivHobbies .writing #myDramaCitation div{
+    margin-left: 60px;
+    text-align: right;
+    width: 300px;
+    font-size: 16px;
+}
+.mainDivHobbies .writing #myDramaCover{
+    width: 380px;
+    text-align: center;
+}
+
+.mainDivHobbies .writing #myDramaCover img{
+    border: 5px solid white;
+    border-radius: 5px;
+}
+.mainDivHobbies .writing #myDramaCrew{
+    clear: both;
+    margin: auto;
+    background-image: url("paper9.png");
+    background-repeat: no-repeat;
+    width: 757px;
+    height: 424px;
+    text-align: center;
+}
+.mainDivHobbies .writing #myDramaCrew img{
+    margin: 30px 0 0 50px;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*interestsCSS*/
+
+
+.mainSectionInterests .mainDivInterests{
+    box-sizing: content-box;
+    margin: auto;
+    width: 779px;
+    height: 586px;
+    background-image: url("mainBackground4.png");
+    background-repeat: repeat-y;
+    border-left: 120px solid #e9cca2;
+    border-right: 120px solid #d5ad7b;
+}
+.mainDivInterests #intro{
+    background-image: url("notesHeading.png");
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 80px;
+    margin: auto;
+    box-sizing: content-box;
+    padding-top: 10px;
+}
+.mainDivInterests #philosophy{
+    background-image: url("notes1.png");
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    float: left;
+    margin-left: 110px;
+}
+
+.mainDivInterests #music{
+    background-image: url("notes2.png");
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    margin-right: 110px;
+}
+
+.mainDivInterests #container{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.mainDivInterests #container #science{
+    background-image: url("notes3.png");
+    width: 230px;
+    height: 220px;
+    display: inline-block;
+}
+.mainDivInterests #container #art{
+    background-image: url("notes4.png");
+    width: 230px;
+    height: 220px;
+    display: inline-block;
+}
+.mainDivInterests #container #coffee{
+    background-image: url("notes5.png");
+    width: 230px;
+    height: 220px;
+    display: inline-block;
+}
+
+.mainDivInterests #intro div{
+    height: 25px;
+    width: 220px;
+    margin-top: 15px;
+    margin-left: 60px;
+    font-size: 24px;
+    font-weight:  bold;
+    color: #5d4a4b;
+}
+
+#philosophy div, #music div{
+    width: 180px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 90px;
+    margin-left: 30px;
+    color: #624935;
+}
+#music div{
+    margin-left: 40px;
+}
+#coffee div, #art div, #science div{
+    width: 150px;
+    text-align: center;
+    margin-left: 40px;
+    color: #793403;
+    font-size: 16px;
+}
+
+#coffee div{
+    margin-top: 50px;
+}
+#art div, #science div{
+    margin-top: 80px;
+}
+
+
+/*stuffCSS*/
+.mainSectionStuff .mainDivStuff{
+    box-sizing: content-box;
+    margin: auto;
+    width: 780px;
+    height: 586px;
+    /*border-left: 120px solid #eb7066;*/
+    /*border-right: 120px solid #f2a082;*/
+    background-repeat: repeat-y;
+}
+.mainDivStuff #myProjects{
+    background-image: url("flowersRemovedBg.png");
+    background-repeat: no-repeat;
+    width: 361px;
+    height: 361px;
+    margin-left: -120px;
+    padding-top: 20px;
+    box-sizing: content-box;
+    float: left;
+    display: inline-block;
+}
+.mainDivStuff #myProjects div{
+    width: 470px;
+    margin-left: 140px;
+    font-size: 17px;
+    color: #8a1404;
+}
+.mainDivStuff #firstProject{
+    float: left;
+    margin-top: 230px;
+    margin-right: -160px;
+    display: inline-block;
+    text-align: right;
+    width: 600px;
+}
+.mainDivStuff #firstProject div{
+    width: 160px;
+    margin-left: 500px;
+    margin-top: -120px;
+    background-image: url("flowes4.png");
+    background-repeat: no-repeat;
+    height: 616px;
+    box-sizing: content-box;
+    padding-top: 60px;
+}
+.mainDivStuff #firstProject div div{
+    margin: 0 0 0 -220px;
+    background-image: none;
+    width: 270px;
+}
+.mainDivStuff #firstProject figure img{
+    display: inline-block;
+    float: left;
+    margin-left: -180px;
+    margin-top: -400px;
+    border: 2px solid white;
+    padding: 10px;
+}
+.mainDivStuff #firstProject figure figcaption{
+    float: left;
+    margin-top: 38px;
+    margin-left: -350px;
+    display: inline-block;
+}
+.mainDivStuff #secondDrawing{
+    float: left;
+    display: inline-block;
+}
+
+.mainDivStuff #firstContainer div > div{
+    display: inline-block;
+    width: 400px;
+    height: 150px;
+    /*border: 2px solid white;*/
+    margin-left: 125px;
+    padding-top: 100px;
+    background-image: url("flowers10.png");
+    background-repeat: no-repeat;
+    box-sizing: content-box;
+    text-align: center;
+    font-size: 18px;
+    color: brown;
+    margin-top: -80px;
+}
+.mainDivStuff #firstContainer div div > div{
+    margin-top: 35px;
+    margin-left: -20px;
+    width: 380px;
+    background-image: none;
+}
+.mainDivStuff #firstContainer img, figcaption{
+    margin-left: 80px;
+    border: 2px solid white;
+    text-align: center;
+    padding: 10px;
+}
+.mainDivStuff #firstContainer{
+    /*background-image: url("flowers6.png");*/
+    width: 900px;
+    height: 700px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: -100px;
+}
+
+.mainDivStuff #secondContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -100px;
+}
+#secondContainer #firstModel div{
+    background-image: url("flowers11.png");
+    background-repeat: no-repeat;
+    width: 730px;
+    height: 400px;
+    margin-top: -200px;
+    box-sizing: content-box;
+    padding-top: 360px;
+}
+#secondContainer #firstModel div > div{
+    width: 500px;
+    background-image: none;
+    margin-left: 100px;
+    text-align: center;
+    font-size: 18px;
+    color: brown;
+}
+#secondContainer #firstModel figure{
+    margin-top: -130px;
+}
+#secondContainer #firstModel figure img{
+    padding: 10px;
+    border: 2px solid white;
+}
+#secondContainer #firstModel figure figcaption{
+    margin-left: -30px;
+}
+
+#secondContainer #secondModel figure{
+    width: 900px;
+}
+#secondContainer #secondModel figure figcaption{
+    width: 200px;
+    height: 30px;
+
+}
+
+#secondContainer #secondModel div{
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+#secondContainer #secondModel img{
+    display: inline-block;
+    float: left;
+    margin-left: 10px;
+    border: 2px solid white;
+}
+
+#final{
+    width: 700px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+#final div{
+    padding: 10px;
+    border: 2px solid white;
+}
